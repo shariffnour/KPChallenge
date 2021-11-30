@@ -41,7 +41,7 @@ fun VerboseOutput() {
 
         Column(Modifier.fillMaxWidth()){
             Image(
-                painter = painterResource(R.drawable.img),
+                painter = painterResource(R.drawable.me),
                 contentDescription = null,
                 modifier = Modifier
                     .height(250.dp)
@@ -75,9 +75,8 @@ fun VerboseOutput() {
             Text(text = stringResource(id = R.string.languages), style= MaterialTheme.typography.body1, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.padding(5.dp))
             Text(text = stringResource(id = R.string.kotlin), style= MaterialTheme.typography.body2)
-            Text(text = stringResource(id = R.string.flutter), style= MaterialTheme.typography.body2)
             Text(text = stringResource(id = R.string.java), style= MaterialTheme.typography.body2)
-            Text(text = stringResource(id = R.string.reactnative), style= MaterialTheme.typography.body2)
+            Text(text = stringResource(id = R.string.php), style= MaterialTheme.typography.body2)
             Text(text = stringResource(id = R.string.js), style= MaterialTheme.typography.body2)
             Spacer(modifier = Modifier.padding(15.dp))
             Button(onClick = { /*TODO*/ },
@@ -94,7 +93,6 @@ fun VerboseOutput() {
 
 }
 
-data class Greeting(val time: String, val parlance: String)
 
 @Preview(showBackground = true)
 @Composable

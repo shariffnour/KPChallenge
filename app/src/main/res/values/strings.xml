@@ -1,14 +1,15 @@
 <resources>
     <string name="app_name">KP Challenge</string>
-    <string name="name">John Doe</string>
-    <string name="location">Katsina State, Nigeria</string>
-    <string name="hobbies">I love reading, running, talking etc</string>
+    <string name="name">Nura Shariff</string>
+    <string name="location">Kano State, Nigeria</string>
+    <string name="hobbies">I love listening to podcasts, movies, and sleep.</string>
     <string name="about">About me</string>
-    <string name="body">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</string>
+    <string name="body">I\'m a CS grad that dabbles around in code by night, while having a fulltime bank job by day.
+    You can often find me listening to a podcast or watching a classic sitcom on Netflix. I like the outdoors on a good weather day
+     but i am more of an indoors person. Procrastination is my arch nemesis, i almost didn\'t code this!</string>
     <string name="languages">Languages</string>
     <string name="kotlin">Kotlin</string>
-    <string name="flutter">Flutter</string>
     <string name="java">Java</string>
-    <string name="reactnative">React Native</string>
+    <string name="php">PHP</string>
     <string name="js">JavaScript</string>
 </resources>
